@@ -1,0 +1,65 @@
+[
+  {
+    "question": "HTML'in açılımı nedir?",
+    "answers": [
+      {
+        "answer-text": "Hyper Text Markup Language",
+        "isCorrect": true
+      },
+      {
+        "answer-text": "Hyper Text Preprocessor",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "Hyper Text Multiple Language",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "Hyper Tool Multiple Language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Hangisi en büyük başlıktır?",
+    "answers": [
+      {
+        "answer-text": "h2",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "h6",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "h1",
+        "isCorrect": true
+      },
+      {
+        "answer-text": "h3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Satır sonu eklemek için doğru HTML etiketi nedir?",
+    "answers": [
+      {
+        "answer-text": "<br>",
+        "isCorrect": true
+      },
+      {
+        "answer-text": "<lb>",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "<p>",
+        "isCorrect": false
+      },
+      {
+        "answer-text": "<sm>",
+        "isCorrect": false
+      }
+    ]
+  }
+]

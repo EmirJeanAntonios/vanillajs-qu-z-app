@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sınav App</title>
+  </head>
+  <body>
+    <button id="start-quiz">Sınava Başla</button>
+
+    <div class="quiz-container not-started">
+      <div class="quiz-title">
+        <h2>Sınav App</h2>
+      </div>
+      <div class="quiz-content">
+        <h3 class="quiz-question"></h3>
+        <ul class="quiz-answers"></ul>
+      </div>
+      <div class="quiz-footer">
+        <p id="quiz-number"></p>
+        <div class="buttons">
+          <button
+            class="next-question"
+            id="prev"
+            style="opacity: 0; pointer-events: none"
+          >
+            Önceki Soru
+          </button>
+          <button
+            class="next-question"
+            id="next"
+            style="opacity: 0; pointer-events: none"
+          >
+            Sonraki Soru
+          </button>
+        </div>
+      </div>
+    </div>
+
+  
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+  </body>
+</html>
