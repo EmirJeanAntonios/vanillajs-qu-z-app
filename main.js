@@ -93,8 +93,8 @@ prev_button.addEventListener('click', (e) => {
 });
 
 start_button.addEventListener('click', function (e) {
-    quiz_container.style.display = 'block';
-    this.style.display = 'none';
+    quiz_container.classList.remove("not-started")
+    this.remove()
 });
 
 finish_button.addEventListener('click', (e) => {
